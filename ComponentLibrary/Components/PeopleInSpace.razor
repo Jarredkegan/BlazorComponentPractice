@@ -1,0 +1,76 @@
+﻿@using System.Net.Http
+@using System.Net.Http.Json
+
+@inject HttpClient Http
+
+<h3>API Call - People In Space</h3>
+<p>There are currently @num people in space.</p>
+
+@if (peopleInSpace == null)
+{
+    <p>loading...</p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Craft</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var person in peopleInSpace.People)
+            {
+                <tr>
+                    <td>@person.Name</td>
+                    <td>@person.Craft</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+
+    /// <summary>
+    /// Model
+    /// </summary>
+    public class PeopleInSpaceModel
+    {
+        public int Number { get; set; }
+        public Person[] People { get; set; }
+    }
+
+    /// <summary>
+    /// Model
+    /// </summary>
+    public class Person
+    {
+        public string Craft { get; set; }
+        public string Name { get; set; }
+    }
+
+    /// <summary>
+    /// Counter
+    /// </summary>
+    int num = 0;
+
+    PeopleInSpaceModel peopleInSpace;
+
+    protected override async Task OnInitializedAsync() 
+    {
+        peopleInSpace = await Http.GetFromJsonAsync<PeopleInSpaceModel>("http://api.open-notify.org/astros.json");
+        GetTotalPeople();
+    }
+
+
+    public void GetTotalPeople()
+    {
+
+        foreach (var person in peopleInSpace.People)
+        {
+            num++;
+        }
+    }
+}

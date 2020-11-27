@@ -1,0 +1,54 @@
+﻿@using System.Net.Http
+@using System.Net.Http.Json
+
+@inject HttpClient Http
+
+<h3>API Call - ISS Location</h3>
+<p>Current location of the International Space Station</p>
+
+@if (location == null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Longitude</th>
+                <th>Latitude</th>
+                <th>Time Stamp</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@location.iss_position.longitude</td>
+                <td>@location.iss_position.latitude</td>
+                <td>@location.timestamp</td>
+            </tr>
+        </tbody>
+    </table>
+}
+
+@code {
+
+    public class ISSLocationModel
+    {
+        public string message { get; set; }
+        public Iss_Position iss_position { get; set; }
+        public int timestamp { get; set; }
+    }
+
+    public class Iss_Position
+    {
+        public string longitude { get; set; }
+        public string latitude { get; set; }
+    }
+
+    ISSLocationModel location;
+
+    protected override async Task OnInitializedAsync()
+    {
+        location = await Http.GetFromJsonAsync<ISSLocationModel>("http://api.open-notify.org/iss-now.json");
+    }
+}
