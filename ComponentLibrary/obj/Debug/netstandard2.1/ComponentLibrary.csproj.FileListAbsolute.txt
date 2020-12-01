@@ -356,6 +356,8 @@ G:\ComponentLibrary\ComponentLibrary\obj\Debug\netstandard2.1\ComponentLibrary.d
 G:\ComponentLibrary\ComponentLibrary\obj\Debug\netstandard2.1\ComponentLibrary.pdb
 G:\ComponentLibrary\ComponentLibrary\obj\Debug\netstandard2.1\RazorDeclaration\Components\ISSLocation.razor.g.cs
 G:\ComponentLibrary\ComponentLibrary\obj\Debug\netstandard2.1\Razor\Components\ISSLocation.razor.g.cs
-G:\ComponentLibrary\ComponentLibrary\obj\Debug\netstandard2.1\integrity\jll2YHK3m4bsO72dHPDDUo6vAyBkL2bonqCcHObdN_I=.hash
-G:\ComponentLibrary\ComponentLibrary\obj\Debug\netstandard2.1\integrity\ZyRx1GN8KJv2VnUgszdyfmPXnxf1GX6Yjt_4iZp5Fec=.hash
-G:\ComponentLibrary\ComponentLibrary\obj\Debug\netstandard2.1\integrity\eOdq8250NVoK328YmLQrusBqw_dGZqyxw5oeg23q_5Y=.hash
+G:\ComponentLibrary\ComponentLibrary\obj\Debug\netstandard2.1\RazorDeclaration\Components\BudgetCalculator.razor.g.cs
+G:\ComponentLibrary\ComponentLibrary\obj\Debug\netstandard2.1\Razor\Components\BudgetCalculator.razor.g.cs
+G:\ComponentLibrary\ComponentLibrary\obj\Debug\netstandard2.1\integrity\uNLQC1H7N-GwVYcOkBgXiDOt9FulcWG0FTYr_jk02Bo=.hash
+G:\ComponentLibrary\ComponentLibrary\obj\Debug\netstandard2.1\integrity\bvwqr63BbXxUuZdbSLIoHf8PM6cjezE_m3V5ZFQ4Cd8=.hash
+G:\ComponentLibrary\ComponentLibrary\obj\Debug\netstandard2.1\integrity\k1YgHCJrrmdx-2jsydGvBIeSQkqevJsrhZRWf1rAYm4=.hash

@@ -4,6 +4,8 @@
 @inject HttpClient Http
 
 <h3>API Call - People In Space</h3>
+<p><em>Demonstrates data binding and a call to a Web API that returns a JSON response.</em></p>
+<hr class="my-4">
 <p>There are currently @num people in space.</p>
 
 @if (peopleInSpace == null)
@@ -58,7 +60,7 @@ else
 
     PeopleInSpaceModel peopleInSpace;
 
-    protected override async Task OnInitializedAsync() 
+    protected override async Task OnInitializedAsync()
     {
         peopleInSpace = await Http.GetFromJsonAsync<PeopleInSpaceModel>("http://api.open-notify.org/astros.json");
         GetTotalPeople();

@@ -1,0 +1,62 @@
+﻿<h3>Budget Calculator</h3>
+<p><em>Demonstrates more data binding, onclick events, and putting data into a List.</em></p>
+
+
+<div>
+    <EditForm class="form-inline my-2" Model="@newBill" OnValidSubmit="AddBill">
+        <div class="form-inline my-2">
+            <p>Paycheck amount:   <InputNumber class="form-control mx-2" @bind-Value="Paycheck"></InputNumber></p>
+            <p>Enter bill amount: <InputNumber class="form-control mx-2" @bind-Value="newBill.Amount"></InputNumber></p>
+        </div>
+
+        <div class="card-footer">
+            <button class="btn btn-outline-primary align-self-end" type="submit">Add Bill</button>
+        </div>
+    </EditForm>
+
+</div>
+
+<ul class="list-group">
+    @foreach (var bill in billList)
+    {
+        Total += bill.Amount;
+
+        <li class="list-group-item list-group-item-secondary">
+            @(bill.Number). $@bill.Amount
+        </li>
+    }
+</ul>
+
+<p>Remaining balance: $@(Paycheck - Total)</p>
+
+
+@foreach (var bill in billList)
+{
+    Total = Total - bill.Amount;
+}
+
+@code {
+
+    private float Paycheck;
+    private float Total;
+    private int Num = 1;
+    private List<BillModel> billList = new List<BillModel>();
+    private BillModel newBill = new BillModel();
+
+
+    public class BillModel
+    {
+        public string Name { get; set; }
+        public float Amount { get; set; }
+        public int Number { get; set; }
+    }
+
+    public void AddBill()
+    {
+        newBill.Number = Num++;
+        billList.Add(newBill);
+
+        newBill = new BillModel();
+    }
+
+}
