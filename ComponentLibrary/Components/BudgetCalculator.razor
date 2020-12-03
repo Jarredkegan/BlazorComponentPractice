@@ -1,6 +1,6 @@
 ﻿<h3>Budget Calculator</h3>
-<p><em>Demonstrates more data binding, onclick events, and putting data into a List.</em></p>
-
+<p><em>Demonstrates data binding, onclick events, and putting data into a List.</em></p>
+<hr class="my-4">
 
 <div>
     <EditForm class="form-inline my-2" Model="@newBill" OnValidSubmit="AddBill">
@@ -28,7 +28,7 @@
 </ul>
 
 <p>Remaining balance: $@(Paycheck - Total)</p>
-
+<hr class="my-4">
 
 @foreach (var bill in billList)
 {

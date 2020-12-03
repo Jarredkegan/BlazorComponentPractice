@@ -173,39 +173,6 @@
         }
       },
       {
-        "HashCode": -1982653511,
-        "Kind": "Components.Component",
-        "Name": "ComponentLibrary.Pages.Index",
-        "AssemblyName": "ComponentLibrary",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ComponentLibrary.Pages.Index"
-        }
-      },
-      {
-        "HashCode": 1973932855,
-        "Kind": "Components.Component",
-        "Name": "ComponentLibrary.Pages.Index",
-        "AssemblyName": "ComponentLibrary",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ComponentLibrary.Pages.Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ComponentLibrary.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -312404759,
         "Kind": "Components.Component",
         "Name": "ComponentLibrary.Shared.MainLayout",
@@ -384,6 +351,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "ComponentLibrary.Shared.SurveyPrompt",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1982653511,
+        "Kind": "Components.Component",
+        "Name": "ComponentLibrary.Pages.Index",
+        "AssemblyName": "ComponentLibrary",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ComponentLibrary.Pages.Index"
+        }
+      },
+      {
+        "HashCode": 1973932855,
+        "Kind": "Components.Component",
+        "Name": "ComponentLibrary.Pages.Index",
+        "AssemblyName": "ComponentLibrary",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ComponentLibrary.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ComponentLibrary.Pages.Index",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

@@ -1,8 +1,8 @@
 ﻿@page "/TaskList"
 
 <h3>Task List</h3>
-<p><em>Demonstrates onlick event, value binding, and data binding.</em></p>
-<p><em>Add a few tasks to preview, then cross them off with a mouse click.</em></p>
+<p><em>Demonstrates data binding, onclick events, and putting data into a List.</em></p>
+@*<p><em>Add a few tasks to preview, then cross them off with a mouse click.</em></p>*@
 <hr class="my-4">
 
 @if (taskList.Count > 0)
@@ -39,6 +39,7 @@
         }
     }
 </ul>
+<hr class="my-4">
 
 @code {
 
