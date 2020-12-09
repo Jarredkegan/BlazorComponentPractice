@@ -66,6 +66,13 @@ using ComponentLibrary.Components;
 #line hidden
 #nullable disable
 #nullable restore
+#line 11 "G:\ComponentLibrary\ComponentLibrary\_Imports.razor"
+using System.ComponentModel.DataAnnotations;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 1 "G:\ComponentLibrary\ComponentLibrary\Components\PeopleInSpace.razor"
 using System.Net.Http;
 

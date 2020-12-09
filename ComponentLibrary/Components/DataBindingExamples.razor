@@ -1,0 +1,65 @@
+﻿<h3>Data Binding Examples</h3>
+<p><em>Demonstrates One-way, Two-way, and event data binding</em></p>
+<hr class="my-4">
+
+<EditForm class="form-inline my-2" Model="Employees">
+    <div>
+        <h4>One-way</h4>
+        First Name: <label class="form-control mx-2">@Employees.FirstName</label>
+        <br />
+        Last Name: <label class="form-control mx-2">@Employees.LastName</label>
+
+    </div>
+    <hr class="my-4">
+    <div>
+        <h4>One-way on form controls</h4>
+        First Name: <input class="form-control mx-2" value="@Employees.FirstName" />
+        <br />
+        Last Name: <input class="form-control mx-2" value="@Employees.LastName" />
+    </div>
+    <hr class="my-4">
+    <div>
+        <h4>Two-way data</h4>
+        First Name: <input class="form-control mx-2" @bind="@Employees.FirstName" />
+        <br />
+        Last Name: <input class="form-control mx-2" @bind="@Employees.LastName" />
+    </div>
+    <hr class="my-4">
+    <div>
+        <h4>Two-way data binding oninput event</h4>
+        First Name: <input class="form-control mx-2" @bind-value="@Employees.FirstName" @bind-value:event="oninput" />
+        <br />
+        Last Name: <input class="form-control mx-2" @bind-value="@Employees.LastName" @bind-value:event="oninput" />
+    </div>
+</EditForm>
+<div>
+    <button class="btn btn-primary" @onclick="Button_Click">Click here to trigger event</button>
+</div>
+<hr class="my-4">
+
+@code {
+
+    public class Employee
+    {
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+    }
+
+    public Employee Employees { get; set; }
+
+    protected override Task OnInitializedAsync()
+    {
+        Employees = new Employee
+        {
+            FirstName = "Jarred",
+            LastName = "Johnson",
+        };
+
+        return base.OnInitializedAsync();
+    }
+
+    public void Button_Click()
+    {
+        Employees.FirstName = "Jarrhead";
+    }
+}

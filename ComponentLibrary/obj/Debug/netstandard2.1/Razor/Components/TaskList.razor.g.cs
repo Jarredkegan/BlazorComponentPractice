@@ -79,6 +79,13 @@ using ComponentLibrary.Components;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 11 "G:\ComponentLibrary\ComponentLibrary\_Imports.razor"
+using System.ComponentModel.DataAnnotations;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/TaskList")]
     public partial class TaskList : Microsoft.AspNetCore.Components.ComponentBase
     {

@@ -4,6 +4,9 @@
 
 <div>
     <EditForm class="form-inline my-2" Model="@newBill" OnValidSubmit="AddBill">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
         <div class="form-inline my-2">
             <p>Paycheck amount:   <InputNumber class="form-control mx-2" @bind-Value="Paycheck"></InputNumber></p>
             <p>Enter bill amount: <InputNumber class="form-control mx-2" @bind-Value="newBill.Amount"></InputNumber></p>
@@ -19,11 +22,13 @@
 <ul class="list-group">
     @foreach (var bill in billList)
     {
+
         Total += bill.Amount;
 
         <li class="list-group-item list-group-item-secondary">
             @(bill.Number). $@bill.Amount
         </li>
+
     }
 </ul>
 
@@ -37,6 +42,7 @@
 
 @code {
 
+    [Required]
     private float Paycheck;
     private float Total;
     private int Num = 1;
@@ -47,6 +53,8 @@
     public class BillModel
     {
         public string Name { get; set; }
+
+        [Required]
         public float Amount { get; set; }
         public int Number { get; set; }
     }

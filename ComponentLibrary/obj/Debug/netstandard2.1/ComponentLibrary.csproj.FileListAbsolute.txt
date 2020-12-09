@@ -156,6 +156,9 @@ G:\ComponentLibrary\ComponentLibrary\obj\Debug\netstandard2.1\ComponentLibrary.A
 G:\ComponentLibrary\ComponentLibrary\obj\Debug\netstandard2.1\ComponentLibrary.csproj.CoreCompileInputs.cache
 G:\ComponentLibrary\ComponentLibrary\obj\Debug\netstandard2.1\ComponentLibrary.RazorComponent.input.cache
 G:\ComponentLibrary\ComponentLibrary\obj\Debug\netstandard2.1\RazorDeclaration\App.razor.g.cs
+G:\ComponentLibrary\ComponentLibrary\obj\Debug\netstandard2.1\RazorDeclaration\Components\BudgetCalculator.razor.g.cs
+G:\ComponentLibrary\ComponentLibrary\obj\Debug\netstandard2.1\RazorDeclaration\Components\DataBindingExamples.razor.g.cs
+G:\ComponentLibrary\ComponentLibrary\obj\Debug\netstandard2.1\RazorDeclaration\Components\ISSLocation.razor.g.cs
 G:\ComponentLibrary\ComponentLibrary\obj\Debug\netstandard2.1\RazorDeclaration\Components\PeopleInSpace.razor.g.cs
 G:\ComponentLibrary\ComponentLibrary\obj\Debug\netstandard2.1\RazorDeclaration\Components\TaskList.razor.g.cs
 G:\ComponentLibrary\ComponentLibrary\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Index.razor.g.cs
@@ -168,6 +171,9 @@ G:\ComponentLibrary\ComponentLibrary\obj\Debug\netstandard2.1\ComponentLibrary.T
 G:\ComponentLibrary\ComponentLibrary\obj\Debug\netstandard2.1\ComponentLibrary.TagHelpers.output.cache
 G:\ComponentLibrary\ComponentLibrary\obj\Debug\netstandard2.1\ComponentLibrary.RazorCoreGenerate.cache
 G:\ComponentLibrary\ComponentLibrary\obj\Debug\netstandard2.1\Razor\App.razor.g.cs
+G:\ComponentLibrary\ComponentLibrary\obj\Debug\netstandard2.1\Razor\Components\BudgetCalculator.razor.g.cs
+G:\ComponentLibrary\ComponentLibrary\obj\Debug\netstandard2.1\Razor\Components\DataBindingExamples.razor.g.cs
+G:\ComponentLibrary\ComponentLibrary\obj\Debug\netstandard2.1\Razor\Components\ISSLocation.razor.g.cs
 G:\ComponentLibrary\ComponentLibrary\obj\Debug\netstandard2.1\Razor\Components\PeopleInSpace.razor.g.cs
 G:\ComponentLibrary\ComponentLibrary\obj\Debug\netstandard2.1\Razor\Components\TaskList.razor.g.cs
 G:\ComponentLibrary\ComponentLibrary\obj\Debug\netstandard2.1\Razor\Pages\Index.razor.g.cs
@@ -354,10 +360,6 @@ G:\ComponentLibrary\ComponentLibrary\obj\Debug\netstandard2.1\staticwebassets\Co
 G:\ComponentLibrary\ComponentLibrary\obj\Debug\netstandard2.1\staticwebassets\ComponentLibrary.StaticWebAssets.xml
 G:\ComponentLibrary\ComponentLibrary\obj\Debug\netstandard2.1\ComponentLibrary.dll
 G:\ComponentLibrary\ComponentLibrary\obj\Debug\netstandard2.1\ComponentLibrary.pdb
-G:\ComponentLibrary\ComponentLibrary\obj\Debug\netstandard2.1\RazorDeclaration\Components\ISSLocation.razor.g.cs
-G:\ComponentLibrary\ComponentLibrary\obj\Debug\netstandard2.1\Razor\Components\ISSLocation.razor.g.cs
-G:\ComponentLibrary\ComponentLibrary\obj\Debug\netstandard2.1\RazorDeclaration\Components\BudgetCalculator.razor.g.cs
-G:\ComponentLibrary\ComponentLibrary\obj\Debug\netstandard2.1\Razor\Components\BudgetCalculator.razor.g.cs
-G:\ComponentLibrary\ComponentLibrary\obj\Debug\netstandard2.1\integrity\4Jaj4AYlEyKwiUqiJjeWF7kydhO-ubtgdqXhjeQGAgo=.hash
-G:\ComponentLibrary\ComponentLibrary\obj\Debug\netstandard2.1\integrity\fbE5F8lgNmDE0WZmEnq0iwaK6kUcjjYYagRyfRxEwcI=.hash
-G:\ComponentLibrary\ComponentLibrary\obj\Debug\netstandard2.1\integrity\Ydgoq8Zo6ftJz5sUs6iC1y1TwgdfVYzb-2MO4Rnt8W4=.hash
+G:\ComponentLibrary\ComponentLibrary\obj\Debug\netstandard2.1\integrity\9e8ktt1VtYp2XxlNQBxtsZ50MvbI1zge5p4X4c-lm3Y=.hash
+G:\ComponentLibrary\ComponentLibrary\obj\Debug\netstandard2.1\integrity\E_oD9TNEQf4a56hETBdZs4eSAxJ4aj-k5MDkwzNwVRo=.hash
+G:\ComponentLibrary\ComponentLibrary\obj\Debug\netstandard2.1\integrity\AspL-4hQ3t4DKSUMab7VuXpA8Szl8XHHvTx1cCzexso=.hash
