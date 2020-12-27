@@ -61,6 +61,8 @@
 
     public void AddBill()
     {
+        if (newBill.Amount.Equals(0))
+                return;
         newBill.Number = Num++;
         billList.Add(newBill);
 

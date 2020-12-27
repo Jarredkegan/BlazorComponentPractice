@@ -15,6 +15,8 @@
 }
 
 <EditForm class="form-inline my-2" Model="@newTask" OnValidSubmit="AddTask">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
     <InputText class="form-control mx-2" @bind-Value="newTask.Task"></InputText>
     <button class="btn btn-outline-primary" type="submit">Add Task</button>
 </EditForm>
@@ -45,6 +47,7 @@
 
     public class TaskModel
     {
+        [Required]
         public string Task { get; set; }
 
         public bool IsComplete { get; set; }

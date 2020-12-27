@@ -360,6 +360,6 @@ G:\ComponentLibrary\ComponentLibrary\obj\Debug\netstandard2.1\staticwebassets\Co
 G:\ComponentLibrary\ComponentLibrary\obj\Debug\netstandard2.1\staticwebassets\ComponentLibrary.StaticWebAssets.xml
 G:\ComponentLibrary\ComponentLibrary\obj\Debug\netstandard2.1\ComponentLibrary.dll
 G:\ComponentLibrary\ComponentLibrary\obj\Debug\netstandard2.1\ComponentLibrary.pdb
-G:\ComponentLibrary\ComponentLibrary\obj\Debug\netstandard2.1\integrity\9e8ktt1VtYp2XxlNQBxtsZ50MvbI1zge5p4X4c-lm3Y=.hash
-G:\ComponentLibrary\ComponentLibrary\obj\Debug\netstandard2.1\integrity\E_oD9TNEQf4a56hETBdZs4eSAxJ4aj-k5MDkwzNwVRo=.hash
-G:\ComponentLibrary\ComponentLibrary\obj\Debug\netstandard2.1\integrity\AspL-4hQ3t4DKSUMab7VuXpA8Szl8XHHvTx1cCzexso=.hash
+G:\ComponentLibrary\ComponentLibrary\obj\Debug\netstandard2.1\integrity\P27XLa5vTKFBnlgxy6BEpA9RAzd1IO81VprKDtKOChI=.hash
+G:\ComponentLibrary\ComponentLibrary\obj\Debug\netstandard2.1\integrity\ksZqYrLYj9elpsHEYimVPRwxGuDBua27I-7n5jCUfcQ=.hash
+G:\ComponentLibrary\ComponentLibrary\obj\Debug\netstandard2.1\integrity\ciwrIHAEK1k-pPCk4H_1VhJ2ODM4JEkWNqIK4NjiS5Y=.hash
